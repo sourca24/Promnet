@@ -1,26 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-        <!--ini header-->
-        <header>
-            <h1>Belajar membuat layout dengan HTML dan CSS</h1>
-        </header>
-        <!--ini nav-->
-        <nav>
-        </nav>
-        <!--ini div-->
-        <div>
-            <!--ini bagian selection kiri-->
-            <selection></selection>
-            <!--ini bagian selection kanan-->
-            <selection></selection>
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>BERITA TERKINI</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="container">
+      <section class="kiri">
+        <div class="content">
+          <h3>Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae pariatur eos laborum minus, fugiat accusantium. Delectus dolores qui soluta maxime illum officia laudantium ipsum necessitatibus ipsa, explicabo non possimus totam, esse molestias optio eos accusantium, doloribus eligendi rem ea reprehenderit. Eum ea quam iste, voluptatibus aut rem architecto ullam provident.
+          </p>
+          <button>Read More...</button>
         </div>
-</body>
+
+        <div class="content">
+          <h3>Title</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo itaque soluta, doloremque totam aspernatur enim rem aliquam aperiam voluptatibus necessitatibus accusamus facere veniam odit sint? Aperiam facilis vitae, magni voluptatibus dolor placeat inventore, assumenda maiores molestiae reiciendis tempore nulla aspernatur explicabo commodi. Minima sint similique perferendis architecto consectetur ea expedita!
+          </p>
+          <button>Read More...</button>
+        </div>
+      </section>
+
+      <section class="kanan">
+        <div class="content">
+          <h3>Category</h3>
+          <ul>
+            <ul>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">Javascript</a></li>
+              <li><a href="#">Boostrap</a></li>
+              <li><a href="#">PHP</a></li>
+              <li><a href="#">MYSQL</a></li>
+              <li><a href="#">Laravel</a></li>
+            </ul>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy PSTI 2022</p>
+    </footer>
+  </body>
 </html>

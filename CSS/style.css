@@ -58,13 +58,14 @@ header {
     padding-left: 2pc;
     padding-right: 2pc;
   }
-  
+    
   .kanan {
     width: 29%;
     float: right;
     margin: auto;
     background-color: white;
   }
+
   
   .kanan h3 {
     padding-bottom: 15px;

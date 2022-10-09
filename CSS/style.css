@@ -69,6 +69,7 @@ header {
   .kanan h3 {
     padding-bottom: 15px;
     border-bottom: 1px solid black;
+    color: pink;
   }
   
   .kanan ul {
@@ -79,10 +80,18 @@ header {
     text-decoration: none;
     width: 60px;
     display: block;
-    margin-bottom: 27px;
+    margin-bottom: 10px;
     margin-left: -80px;
+    font-style: oblique;
   }
   
+  .next{
+   margin-left: 62px;
+  }
+  .hr{
+    margin-left: 62px;
+    margin-right: 62px;
+  }
   footer {
     background-color: black;
     color: white;
